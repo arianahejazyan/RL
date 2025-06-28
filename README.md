@@ -1,3 +1,20 @@
+## Getting Started
+
+
+Clone the repository:
+```bash
+git clone https://github.com/arianahejazyan/RL.git
+```
+Create and activate a virtual environment:
+```bash
+python3 -m venv venv
+```
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+---
+
 | **Algorithm** | **Type** | **Environment** | **Environment GIF** |
 | ------------- |--------- | --------------- | ------------------- |
 | [Policy Iteration](notebooks/dynamic_programming/policy_iteration.ipynb) | Value Based | **Taxi-v3**: Pick up and drop off passengers at the right location in a 5×5 grid world. | <img src="gif/Taxi.gif" alt="Policy Iteration" width="300"/> |
